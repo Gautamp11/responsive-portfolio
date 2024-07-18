@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Gautam's Portfolio</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__bar">
+        <div class="nav__header">
+          <div class="nav__logo">
+            <a href="#">GK</a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#project">Projects</a></li>
+          <li><a href="#experience">Experiences</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <header class="section__container header__container" id="home">
+      <img src="assets/avatar.png" alt="header" />
+      <h1>
+        I am a Software Engineer<br />with a Passion for <span>Coding</span>
+      </h1>
+      <p>
+        in HTML, CSS, JavaScript, React, and Node.js. With 2 years of front-end
+        development experience at ADP, where I also worked with SAP Basis
+        administration, I am now transitioning to full-stack development.
+        Explore my projects and tutorials, and join me on my coding journey!
+      </p>
+
+      <div class="header__btns">
+        <button class="btn" onclick="window.open('https://www.linkedin.com/in/gautam-kumar-abb14b192/','_blank')"  >Get in Touch</a></button>
+        <a href="assets/CV.pdf" download>Download CV</a>
+      </div>
+    </header>
+
+    <section class="section__container skill__container">
+      <h2>SKILLS</h2>
+      <ul class="skill__flex">
+        <li>
+          <span><i class="ri-javascript-fill"></i></span>
+          <h2>Javascript</h2>
+        </li>
+        <li>
+          <span><i class="ri-html5-fill"></i></span>
+          <h2>HTML/CSS</h2>
+        </li>
+        <li>
+          <span><i class="ri-reactjs-line"></i></span>
+          <h2>React</h2>
+        </li>
+        <li>
+          <span><i class="ri-nodejs-line"></i></span>
+          <h2>NodeJS</h2>
+        </li>
+        <li>
+          <span><i class="ri-database-2-line"></i></span>
+          <h2>MongoDB</h2>
+        </li>
+        <li>
+          <span><i class="ri-ubuntu-line"></i></span>
+          <h2>Linux</h2>
+        </li>
+      </ul>
+    </section>
+
+    <section class="section__container project__container" id="project">
+      <h2>PROJECTS</h2>
+      <div class="project__grid">
+        <div class="project__card">
+          <div class="project__image__container">
+            <img src="assets/project-50-mini.jpeg" alt="project" />
+          </div>
+          <div class="project__card__details">
+            <div>
+              <h4>50 mini projects</h4>
+              <div class="project-skills">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JS</span>
+              </div>
+            </div>
+            <a
+              href="https://github.com/Gautamp11/50-projects-in-50-days"
+              target="_blank"
+              ><i class="ri-arrow-right-up-line"></i
+            ></a>
+          </div>
+        </div>
+        <div class="project__card">
+          <div class="project__image__container">
+            <img src="assets/project-weather-app.jpeg" alt="project" />
+          </div>
+          <div class="project__card__details">
+            <div>
+              <h4>Weather app</h4>
+              <div class="project-skills">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JS</span>
+              </div>
+            </div>
+            <a href="https://github.com/Gautamp11/weather-app" target="_blank"
+              ><i class="ri-arrow-right-up-line"></i
+            ></a>
+          </div>
+        </div>
+        <div class="project__card">
+          <div class="project__image__container">
+            <img src="assets/project-rps.jpeg" alt="project" />
+          </div>
+          <div class="project__card__details">
+            <div>
+              <h4>Rock, Paper & Scissors Game</h4>
+              <div class="project-skills">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JS</span>
+              </div>
+            </div>
+            <a
+              href="https://github.com/Gautamp11/rock-paper-scissors-game"
+              target="_blank"
+              ><i class="ri-arrow-right-up-line"></i
+            ></a>
+          </div>
+        </div>
+        <div class="project__card">
+          <div class="project__image__container">
+            <img src="assets/project-more.jpeg" alt="project" />
+          </div>
+          <div class="project__card__details">
+            <div>
+              <h4>More Projects..</h4>
+              <div class="project-skills">
+                <span>Explore on my github</span>
+
+              </div>
+            </div>
+            <a href="#" target="_blank"
+              ><i class="ri-arrow-right-up-line"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container experience__container" id="experience">
+      <h2>EXPERIENCE</h2>
+      <ul class="experience__list">
+        <li>
+          <div class="experience__header">
+            <div>
+              <img src="assets/adp-exp-logo.webp" alt="google" />
+              <h4>Software Engineer</h4>
+            </div>
+            <p>July 2022 - Present</p>
+          </div>
+          <p>
+            I am currently employed at ADP, where I have accumulated 2 years of
+            experience in front-end development. Additionally, I have gained
+            exposure to SAP Basis administration as part of my role. I'm
+            passionate about web development and continuously expanding my
+            skills in both areas.
+          </p>
+        </li>
+        <li>
+          <div class="experience__header">
+            <div>
+              <img src="assets/xoriant-exp-logo.webp" alt="apple" />
+              <h4>Data Scientist Internship</h4>
+            </div>
+            <p>Feb 2022 - June 2022</p>
+          </div>
+          <p>
+            During my 4-month internship at Xoriant Pvt Ltd, I worked as a Data
+            Scientist Engineer, focusing on NLP projects. My responsibilities
+            included leveraging natural language processing techniques to
+            analyze and derive insights from data. This experience enhanced my
+            skills in machine learning, NLP, and data analysis.
+          </p>
+        </li>
+        <li>
+          <div class="experience__header">
+            <div>
+              <img src="assets/visix-exp-logo.webp" alt="meta" />
+              <h4>Project Coordinator Internship</h4>
+            </div>
+            <p>Nov 2021 - Mar 2022</p>
+          </div>
+          <p>
+            During an internship at VISIX Translation Company, I served as a
+            Project Coordinator, managing teams from diverse international
+            backgrounds for 6 months. Responsibilities included overseeing
+            multiple projects, ensuring effective communication, and fostering
+            collaboration among team members. This experience strengthened my
+            skills in team management and cross-cultural coordination in a
+            dynamic environment.
+          </p>
+        </li>
+      </ul>
+    </section>
+
+    <footer>
+      <div class="section__container footer__container" id="contact">
+        <h2>Contact</h2>
+        <p>
+          I'd love to hear from you! Whether you have a project in mind, a
+          question about my work, or just want to connect, feel free to reach
+          out. You can contact me via email or through my social media channels.
+          I am always excited to collaborate with like-minded individuals and
+          explore new opportunities.
+        </p>
+        <div class="mail__to">
+          <a href="#">
+            <span><i class="ri-mail-line"></i></span>
+            gautam1564p1@gmail.com
+          </a>
+        </div>
+        <ul class="footer__socials">
+          <li>
+            <a href="#"><i class="ri-github-line"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="ri-instagram-fill"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="ri-twitter-x-fill"></i></a>
+          </li>
+          <li>
+            <a href="www.linkedin.com/in/gautam-kumar-abb14b192"
+              ><i class="ri-linkedin-box-fill"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
