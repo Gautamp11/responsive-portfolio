@@ -255,7 +255,6 @@ body {
 
 .project__grid {
   display: grid;
-
   gap: 2rem;
 }
 
@@ -300,9 +299,9 @@ body {
 }
 .project__card__details .project-skills {
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 2rem;
+  flex-wrap: wrap;
+  align-items: top;
+  gap: 1.5rem;
 }
 .project__card__details span {
   position: relative;
@@ -314,7 +313,7 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
-.project__card__details span::after {
+/* .project__card__details span::after {
   position: absolute;
   top: 30%;
   left: 125%;
@@ -326,7 +325,7 @@ body {
   display: inline-block;
   border-radius: 50%;
   background: var(--gradient-1);
-}
+} */
 
 .project__card__details a {
   font-size: 1.5rem;
